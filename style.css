@@ -1,0 +1,19 @@
+.card{
+    width:300px;
+    font-size: 16px;
+    font-weight: bold;
+    font-style:italic;
+    align-items: center;
+    padding:20px;
+      padding-right:20px;
+    background-color:gray;
+    margin-left:20px;
+    line-height: 45px;;
+}
+.button{
+    background-color: black;
+    color:white;
+    width:150px;
+    height:50px;
+    
+}
