@@ -1,5 +1,19 @@
+.full-div{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+canvas{
+  width: 1000px;;
+}
 .card{
-    width:300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+    width:500px;
     font-size: 16px;
     font-weight: bold;
     font-style:italic;
@@ -16,4 +30,42 @@
     width:150px;
     height:50px;
     
+}
+@media screen and (max-width:670px) {
+  body{
+    overflow-x: hidden;
+  }
+  .full-div{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+}
+canvas{
+  width: 400px;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+    width:200px;
+    font-size: 16px;
+    font-weight: bold;
+    font-style:italic;
+    align-items: center;
+    padding:20px;
+      padding-right:20px;
+    background-color:gray;
+    margin-left:20px;
+    line-height: 45px;;
+}
+.button{
+    background-color: black;
+    color:white;
+    width:150px;
+    height:50px;
+    
+}
 }
